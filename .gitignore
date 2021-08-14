@@ -1,4 +1,9 @@
-venv/*
+tutorial-env/*
+__pycache__/
+*.sqlite3
+*.vscode
+
+.venv/*
 __pycache__/
 *.sqlite3
 *.vscode

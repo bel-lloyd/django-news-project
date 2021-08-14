@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
 
+body, html {
+    height: 100%;
+    max-width: 100%;
+    margin:0;
+}
+
 body {
-    background-color: rgb(240, 239, 239);
+    background-color: rgb(255, 255, 255);
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #000;
+    margin: 20px 30px 20px 30px;
 }
 
 img {
-    filter: grayscale(100%);
+    filter:saturate(30%);
 }
 
 h1 {
