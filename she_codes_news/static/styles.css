@@ -1,20 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
 
 body, html {
     height: 100%;
     max-width: 100%;
     margin:0;
+    padding: 50px;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: mistyrose
 }
 
 header {
+    height: 75px;
+    margin: 20px 30px 20px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 30px 20px 30px;
 }
 
 h1 {
@@ -25,10 +28,13 @@ h1 {
 }
 
 h2 {
-   font-family: 'Montserrat Subrayada', sans-serif; 
+   font-family:'Poppins', sans-serif; 
+   font-weight: 600;
 }
 
 h3 {
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
     font-size: 2rem;
     margin: 0;
 }
@@ -39,10 +45,9 @@ h3 {
 }
 
 nav {
-    flex-basis: 20%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    background-color: #fff;
 }
 
 a {
@@ -53,4 +58,15 @@ a {
 
 a, p {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    padding: 50px;
+    justify-content: flex-start;
+    display: flex;
+    align-content: center;
+    font-size: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }

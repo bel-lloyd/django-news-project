@@ -1,6 +1,7 @@
 .story-card {
     margin: 2px;
     padding: 20px;
+    border: 1px solid black
 }
 
 .story-card img {
