@@ -6,10 +6,11 @@ from .forms import StoryForm
 
 class IndexView(generic.ListView):
     template_name = 'news/index.html'
+    ordering = ['-id']
 
     def get_queryset(self):
         '''Return all news stories.'''
-        return NewsStory.objects.all()
+        return NewsStory.objects.all().order_by('-pub_date')
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -24,6 +25,6 @@ class StoryView(generic.DetailView):
 
 class AddStoryView(generic.CreateView):
     form_class = StoryForm
-    context_object_name = 'storyform'
+    context_object_name = 'storyForm'
     template_name = 'news/createStory.html'
     success_url = reverse_lazy('news:index')

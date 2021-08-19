@@ -17,10 +17,6 @@ header {
     margin: 20px 30px 20px 30px;
 }
 
-img {
-    filter:saturate(30%);
-}
-
 h1 {
     font-family: 'Montserrat Subrayada', sans-serif;
     text-decoration: none;
@@ -52,9 +48,9 @@ nav {
 a {
     margin: 2px;
     text-decoration: none;
-    color: #000;
+    color: pink;
 }
 
 a, p {
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
