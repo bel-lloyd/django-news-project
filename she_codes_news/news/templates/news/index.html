@@ -6,9 +6,19 @@
 {% endblock %}
 
 {% block content %}
-<a href="{% url 'news:newStory' %}">Write New Story</a>
-    <h2>Latest News</h2>
-
+    <div>
+    {% include './nav.html' %}
+    </div>
+    <div>
+        <a href="{% url 'news:newStory' %}">Write New Story</a>
+        <form class="search_bar" method="GET" action="" >
+            <input class="search_bar" type="search" name="search"> 
+            <button class="search_bar" type="submit"> Search Story Titles </button>
+        </form>
+    </div>
+    <div>
+        <h2>Latest News</h2>
+    </div>
     <div id="latest-stories">
         {% if latest_stories %}
             {% for story in latest_stories %}
