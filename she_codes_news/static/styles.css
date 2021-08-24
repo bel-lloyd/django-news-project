@@ -5,11 +5,11 @@ body, html {
     height: 100%;
     max-width: 100%;
     margin:0;
-    padding: 50px;
+    padding: 20px;
 }
 
 body {
-    background-color: white
+    background-color: rgb(250, 245, 245)
 }
 
 header {
@@ -18,11 +18,11 @@ header {
     margin: 0px, auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 h1, h2, h3 {
-    color: lightpink
+    color: pink
 }
 
 h1 {
@@ -52,12 +52,18 @@ h3 {
 nav {
     display: flex;
     align-items: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 a {
     margin: 2px;
     text-decoration: none;
     color: pink;
+}
+
+a:hover {
+    color: rgb(252, 147, 252)
 }
 
 a, p {
@@ -73,4 +79,12 @@ form {
     flex-direction: column;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.search_bar {
+    padding: 10px;
+    align-content: left;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
 }
