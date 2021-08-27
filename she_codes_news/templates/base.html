@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <title>She Codes News</title>
-        <meta name="description" content="">
+        <meta name="description" content="Django, Python collaboration to achieve a functional website to allow users to enter news stories">
         <meta name="author" content="Bel Lloyd">
         <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
@@ -20,10 +20,12 @@
                     <h1>She {Codes} News</h1>
                 </a>
             </div>
-                {% include './nav.html' %}
         </header>
-
-        <!-- content blocks here -->
-        {% block content %}{% endblock %}
+        <div id="nav">
+            {% include './nav.html' %}
+        </div>
+        <div id="news-page">
+            {% block content %}{% endblock %}
+        </div>
     </body>
 </html>

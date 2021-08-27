@@ -1,7 +1,7 @@
 .story-card {
     margin: 2px;
     padding: 20px;
-    background-color: powderblue;
+    background-color: rgb(159,231,229,.4);
 }
 
 .story-card img {
@@ -23,6 +23,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+#latest-stories .story-card {
+    flex-basis: 32%;
+    flex-grow: 1;
 }
 
 /* #story-card-1 {

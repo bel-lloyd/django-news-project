@@ -8,7 +8,7 @@ body, html {
 }
 
 body {
-    background-color: rgb(250, 245, 245);
+    background-color: white;
     padding: 20px;
 }
 
@@ -18,7 +18,7 @@ header {
     margin: 0px, auto;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: center; 
 }
 
 h1, h2, h3 {
@@ -59,11 +59,11 @@ nav {
 a {
     margin: 2px;
     text-decoration: none;
-    color: pink;
+    color: powderblue;
 }
 
 a:hover {
-    color: rgb(252, 147, 252)
+    color: bisque
 }
 
 a, p {
