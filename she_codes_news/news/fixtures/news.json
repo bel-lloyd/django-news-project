@@ -3,7 +3,7 @@
       "model": "news.NewsStory",
       "pk": 1,
       "fields": {
-        "title": "Cupcakes Galore: She Codes Party Begins",
+        "title": "She Codes Party Begins",
         "author": 1,
         "pub_date": "2020-08-01T10:03:56Z",
         "content": "Boom! Cupcakes galore as She Coders bask in their glory after completing their Django Python website project!",
