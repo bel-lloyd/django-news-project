@@ -5,9 +5,9 @@
 }
 
 .story-card img {
-    width: 100%;
+    width: 90%;
     height: 300px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /* #latest-stories {
@@ -97,8 +97,15 @@
 }
 
 .search_bar {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: powderblue;
+    font-family: 'poppins','sans-serif';
+    padding: 10px;
+    align-content: left;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 5px;
+    color: lightseagreen;
+    text-transform: uppercase;
 }
 
 #new_story {

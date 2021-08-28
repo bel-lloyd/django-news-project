@@ -6,8 +6,13 @@
 {% endblock %}
 
 {% block content %}
-    <div>
+    <div id='create-story'>
+        <h2>Welcome to the She Codes News Portal</h2>
+        <p> Login first to create stories, then feel free to browse the latest stories below,
+        search story titles below or get started with contributing to the page.</p>
         <a href="{% url 'news:newStory' %}">Write New Story</a>
+    </div>
+    <div id='search'>
         <form class="search_bar" method="GET" action="" >
             <input class="search_bar" type="search" name="search"> 
             <button class="search_bar" type="submit"> Search Story Titles </button>

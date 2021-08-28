@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    height: 200px;
+    height: 100px;
     width: max-width;
     margin: 0px, auto;
     display: flex;
@@ -47,6 +47,8 @@ h3 {
 #header-text {
     flex-basis: 80%;
     display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
 nav {
@@ -54,10 +56,11 @@ nav {
     align-items: center;
     font-size: 1.5rem;
     text-transform: uppercase;
+    justify-content: center;
 }
 
 a {
-    margin: 2px;
+    margin: 15px;
     text-decoration: none;
     color: powderblue;
 }
@@ -103,4 +106,36 @@ label {
     font-size: 20px;
     display: flex;
     justify-content: flex-start;
+    margin: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#create-story {
+    font-family: "Poppins",'sans-serif';
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: bisque    ;
+    font-weight: 600;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+#create-story a {
+    border: 1px, solid, black;
+    color: rgba(255, 255, 255, 0.934);
+    text-transform: uppercase;
+}
+
+p {
+    color: grey;
+}
+
+#search {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(118, 212, 225, .4);
 }
