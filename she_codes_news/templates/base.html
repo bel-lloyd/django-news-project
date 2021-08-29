@@ -24,6 +24,16 @@
         <div id="nav">
             {% include './nav.html' %}
         </div>
+        <div id='create-story'>
+            <h2>Welcome to the She Codes News Portal</h2>
+            <p> Login first to create stories, then feel free to browse the latest stories below,
+            search story titles below or get started with contributing to the page.</p>
+            {% if request.user.is_authenticated %}
+                <a class="add-story" href="{% url 'news:newStory'%}">Write New Story</a>
+            {% else %}
+                <p class="add-story" id="unlogged">Please login to add a story!</p>
+            {% endif %}
+        </div>
         {% comment %} <div id="new-story">
             {% if request.user.is_authenticated %}
                 <a class="add-story" href="{% url 'news:newStory'%}">Write New Story</a>
