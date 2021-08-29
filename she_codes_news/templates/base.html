@@ -24,13 +24,13 @@
         <div id="nav">
             {% include './nav.html' %}
         </div>
-        <div id="new-story">
+        {% comment %} <div id="new-story">
             {% if request.user.is_authenticated %}
                 <a class="add-story" href="{% url 'news:newStory'%}">Write New Story</a>
             {% else %}
                 <p class="add-story" id="unlogged">Please login to add a story!</p>
             {% endif %}
-        </div>
+        </div> {% endcomment %}
         <div id="news-page">
             {% block content %}{% endblock %}
         </div>
