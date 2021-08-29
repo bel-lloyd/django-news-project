@@ -151,6 +151,11 @@ label {
     text-transform: uppercase;
 }
 
+.add-story {
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.934);
+}
+
 p {
     color: grey;
 }

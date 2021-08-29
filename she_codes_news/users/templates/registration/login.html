@@ -1,9 +1,7 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div id='create-story'>
-        <a href="{% url 'news:newStory' %}">Write New Story once logged in</a>
-</div>
+
 <h2>Login</h2>
 <form method="post">
         {% csrf_token %}
