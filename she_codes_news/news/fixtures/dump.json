@@ -1,0 +1,19 @@
+[
+{
+  "model": "users.customuser",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$QZgTqGCxPKZZm5kT2tfDFk$E0oAK0zEjs+enB+o8MLNs+skgRotBGD85+AzIHPFiZE=",
+    "last_login": null,
+    "is_superuser": true,
+    "username": "Queen_of_sweets",
+    "first_name": "",
+    "last_name": "",
+    "email": "qs@sweets.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-08-29T06:59:49.382Z",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
